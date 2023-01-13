@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie e Compartilhe o Seu Evento</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+  />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <h1>Banco de Talentos Tech</h1>
+        </header>
+            <p class="line typing-animation">Dê o primeiro passo preenchendo o formulário e sua oportunidade chegará!!!</p>
+        <form id="my-form" action="./finish.html">
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+                    <legend>Candidate-se</legend>
+
+                    <div class="input-wrapper">
+                        <label for="event-title">Nome* <span>(seu nome completo)</span></label>
+                        <input type="text" id="event-title" required="required"/>
+                    </div>
+    
+                    <div class="input-wrapper">
+                        <label for="event-linkedin">URL do Linkedin <span>(comece com https://)</span></label>
+                        <input type="url" id="event-linkedin" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-github">URL do GitHub <span>(comece com https://)</span></label>
+                        <input type="url" id="event-github" />
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-whatsapp">Whatsapp* <span>(somente números)</span></label>
+                        <input type="tel" id="event-whatsapp" required="required"/>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-email">Email* <span>(deixe aqui o seu melhor email)</span></label>
+                        <input type="email" id="event-email" required="required"/>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-stack">Stack</label>
+                        <select id="event-stack">
+                            <option value="backEnd">Back-End</option>
+                            <option value="frontEnd">Front-End</option>
+                            <option value="fullstak">FullStack</option>
+                        </select>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-file">Anexe seu Curriculum* <span>(somente arquivo PDF)</span></label>
+                        <input type="file" id="event-file" accept="application/pdf" required="required"/>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="event-info">Informações Extras<span>(conte um pouco sobre você)</span></label>
+                        <textarea id="event-info"></textarea>
+                    </div>
+
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="event-contact">
+                        <label for="event-contact">Aceito compartilhar meus contatos (whatsapp/email) com empresas e recrutadores.</label>
+                    </div>
+                    <div class="input-wrapper">
+                        <label><span>* Campos Obrigatórios</span></label>
+                    </div>
+
+                </div>
+            </fieldset>
+
+        </form>
+        
+        <footer>
+            <input class="button" form="my-form" type="submit" value="Enviar" />
+        </footer>
+    </div>
+</body>
+
+<script>
+    const phoneInputField = document.querySelector("#event-whatsapp");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+        preferredCountries: ["br", "us", "pt", "ca"],
+        utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
+
+</html>
+
+<!-- F061 04:38-->
