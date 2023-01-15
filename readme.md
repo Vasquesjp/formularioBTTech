@@ -1,26 +1,27 @@
+*P.S.: Place the mouse over the phrases for the English version.*
+# <abbr title="HTML and CSS Form."> Formulário HTML e CSS</abbr>
 
-# Formulário HTML e CSS
-Formulário desenvolvido em HTML e CSS.
+<abbr title="Form developed in HTML and CSS."> Formulário desenvolvido em HTML e CSS.</abbr>
+
 </br></br>
 
 ## Aprendizados
-<br>Prática com manipulação de tags HTML (input, label, span, fieldset e form), uso do CSS para formatar, estilizar e animar o conteúdo da página.
+<br><abbr title="Practice with manipulation of HTML tags (input, label, span, fieldset and form), use of CSS to format, style and animate the content of the page.">Prática com manipulação de tags HTML (input, label, span, fieldset e form), uso do CSS para formatar, estilizar e animar o conteúdo da página.</abbr>
 
-Foi utilizado o plugin '[int-tel-input](https://github.com/jackocnr/intl-tel-input)' para validar e formatar a entrada de números telefônicos no respectivo campo do formulario.
+<abbr title="The 'int-tel-input' plugin was used to validate and format the input of telephone numbers in the respective field of the form.">Foi utilizado o plugin '[int-tel-input](https://github.com/jackocnr/intl-tel-input)' para validar e formatar a entrada de números telefônicos no respectivo campo do formulario.</abbr>
 </br></br>
 
-## Funcionalidades
+## <abbr title="Functionalities"> Funcionalidades </abbr>
 </br>
 
-- Validação de informações;
-- Campos obrigatórios;
-- Anexar arquivo PDF;
-- Checkbox;
-- Opções selecionáveis;
-- Animações em CSS (typing e loading spinners ).
+- <abbr title="Required fields;">Campos obrigatórios;</abbr>
+- <abbr title="Attach PDF file;">Anexar arquivo PDF;</abbr>
+- <abbr title="Checkbox;">Checkbox;</abbr>
+- <abbr title="Selectable options;">Opções selecionáveis;</abbr>
+- <abbr title="CSS animations (typing and loading spinners.">Animações em CSS (typing e loading spinners ).</abbr>
 </br></br>
 
-## Stack utilizada
+## <abbr title="Used stack">Stack utilizada</abbr>
 </br>
 
 **FRONT-END** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white) 
@@ -38,7 +39,7 @@ Foi utilizado o plugin '[int-tel-input](https://github.com/jackocnr/intl-tel-inp
 ## Deploy
 </br>
 
-Visite o deploy do projeto [AQUI](https://vasquesjp.github.io/formularioBTTech/) !!!
+<abbr title="Visit the project's deploy">Visite o deploy do projeto</abbr> [AQUI](https://vasquesjp.github.io/formularioBTTech/) !!!
 </br></br>
 
 ## 🔗 Links
