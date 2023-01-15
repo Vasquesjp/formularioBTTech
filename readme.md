@@ -31,8 +31,8 @@ Foi utilizado o plugin '[int-tel-input](https://github.com/jackocnr/intl-tel-inp
 
 ## Screenshots
 
-<img src="./screen1.jpg" height="400px" width="350px">
-<img src="./screen2.jpg" height="400px" width="350px">
+<img src="./src/screen/screen1.jpg" height="400px" width="350px">
+<img src="./src/screen/screen2.jpg" height="400px" width="350px">
 </br></br>
 
 ## Deploy
